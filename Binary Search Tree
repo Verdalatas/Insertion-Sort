@@ -1,0 +1,11 @@
+1) Write the binary search tree of [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
+Root : 7
+5 7'den küçük bu yüzden 7'nin soluna eklenir 
+1 5 ve 7'den küçük bu yüzden 5'in soluna eklenir
+8 7'den büyük bu yüzden 7'nin sağına eklenir... tüm adımlara bu şekilde bakılır
+
+7'nin sağında 8 ve 9 bulunur
+7'nin solunda 0,1,2,3,4,5 ve 6 bulunur
+5'in sağında 6; solunda 0,1,2,3 ve 4 bulunur
+1'in sağında 2,3 ve 4; solunda 0 bulunur
+3'ün sağında 4; solunda 2 bulunur
